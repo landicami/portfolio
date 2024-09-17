@@ -10,9 +10,11 @@ const Navigation = () => {
         <Navbar.Brand as={Link} to="/">My portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+        <Nav className="ms-auto">
             <Nav.Link as={NavLink} to="/">Home</Nav.Link>
-                     </Nav>
+			<Nav.Link as={NavLink} to="/skills">Skills</Nav.Link>
+
+        </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
