@@ -8,3 +8,9 @@
 .white-link {
     color: white
 }
+
+.custom-card-img {
+	width: 100%; /* Gör bilden responsiv i bredd */
+	height: 180px; /* Sätt en fast höjd */
+	object-fit: cover; /* Se till att bilden täcker hela kortet */
+  }

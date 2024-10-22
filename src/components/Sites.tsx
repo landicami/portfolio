@@ -1,23 +1,50 @@
-import Image from "react-bootstrap/Image";
 
+import Row from "react-bootstrap/Row";
+import Card from "react-bootstrap/Card";
+import Col from "react-bootstrap/Col";
 const Sites = () => {
   return (
 	<div>
 		<h1 className="mb-3">Projects</h1>
-		<div className='row'>
-			<div className='col-lg-3 col-md-3 col-sm-12'>
-				<Image className="rounded" fluid src="/SWAPI.PNG" alt="Bild på hemsida"/>
-				<p>SWAPI is a Star Wars encyklopedia. Get info about movies, species and so on! <a href="https://landicami-swapi.netlify.app/" target="_blank">Go to site</a></p>
-			</div>
-			<div className='col-lg-3 col-md-3 col-sm-12'>
-				<Image className="rounded" fluid src="/CaMovie.PNG" alt="Bild på hemsida"/>
-				<p>C A Movie is a movie-database using api from <a href="https://developer.themoviedb.org/">The movie Db</a> with bearer key. <a href="https://landicami-findzecode.netlify.app/" target="_blank">Go to site</a></p>
-			</div>
-			<div className='col-lg-3 col-sm-12'>
-				<p>Image</p>
-			</div>
+		<Row>
+      {/* First card */}
+      <Col lg={3} md={4} sm={12} className="mb-4 ">
+        <Card className="h-100 bg-dark text-white border">
+          <Card.Img className="custom-card-img" variant="top" src="/SWAPI.PNG" alt="Bild på hemsida" />
+          <Card.Body>
+            <Card.Text>
+              SWAPI is a Star Wars encyclopedia. Get info about movies, species, and so on!
+              <br />
+			  <a href="https://landicami-swapi.netlify.app/" target="_blank" rel="noopener noreferrer"> Go to site</a>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
 
-		</div>
+      {/* Second card */}
+      <Col lg={3} md={4} sm={12} className="mb-4">
+        <Card className="h-100 bg-dark text-white border">
+          <Card.Img className="custom-card-img" variant="top" src="/CaMovie.PNG" alt="Bild på hemsida" />
+          <Card.Body>
+            <Card.Text>
+              C A Movie is a movie-database using API from
+              <a href="https://developer.themoviedb.org/"> The Movie Db</a> with a bearer key.
+			  <br/>
+              <a href="https://landicami-findzecode.netlify.app/" target="_blank" rel="noopener noreferrer"> Go to site</a>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+      {/* Placeholder card */}
+      <Col lg={3} md={4} sm={12} className="mb-4">
+        <Card className="h-100 bg-dark text-white border">
+          <Card.Body>
+            <Card.Text>Image</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+    </Row>
 		</div>
 
 
