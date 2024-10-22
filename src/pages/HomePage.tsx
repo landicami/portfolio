@@ -1,4 +1,5 @@
 import AboutMe from '../components/AboutMe'
+import Sites from '../components/Sites';
 import TopSection from '../components/TopSection';
 
 
@@ -10,6 +11,9 @@ const HomePage = () => {
 		<hr/>
 
 		<AboutMe/>
+		<hr/>
+
+		<Sites />
 		</main>
 	</>
   )

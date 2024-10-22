@@ -1,4 +1,3 @@
-import React from 'react'
 import LinkButtons from './LinkButtons'
 
 const TopSection = () => {
