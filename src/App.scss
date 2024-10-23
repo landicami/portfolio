@@ -1,4 +1,7 @@
 @import "bootstrap/scss/bootstrap";
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 #profile-pic {
     width: 8rem;
@@ -14,3 +17,7 @@
 	height: 180px; /* Sätt en fast höjd */
 	object-fit: cover; /* Se till att bilden täcker hela kortet */
   }
+
+ a {
+	color: rgb(0, 195, 255);
+ }

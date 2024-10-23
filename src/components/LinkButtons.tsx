@@ -12,22 +12,22 @@ const LinkButtons = () => {
         })
         .catch(error => {
             console.log("Failed to copy email", error)
-        } 
+        }
     )};
   return (
-<ButtonGroup>
-    <Button variant="secondary" onClick={copyEmail}>      
-        <FontAwesomeIcon icon={faEnvelope} />
-    </Button>
-    <Button variant="secondary">
-    <a href="https://linkedin.com/in/camilla-landin" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon className='white-link' icon={faLinkedin} />    </a>
-    </Button>
-    <Button variant="secondary">
-    <a href="https://github.com/landicami" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon className='white-link' icon={faGithub} />    </a>
-    </Button>
-    </ButtonGroup>  )
+	<ButtonGroup>
+		<Button variant="secondary" onClick={copyEmail} aria-label="Kopiera email-adress/Copy email">
+			<FontAwesomeIcon icon={faEnvelope} />
+		</Button>
+		<Button variant="secondary" aria-label="Öppna LinkedIn-profil/Open LinkedIn profile" onClick={() => window.open('https://linkedin.com/in/camilla-landin', '_blank')}>
+			<FontAwesomeIcon className='white-link' icon={faLinkedin} />
+		</Button>
+		<Button variant="secondary" aria-label="Öppna Github-profil/Open GitHub profile" onClick={() => window.open('https://github.com/landicami', '_blank')}>
+				<FontAwesomeIcon className='white-link' icon={faGithub} />
+		</Button>
+
+    </ButtonGroup>
+	)
 }
 
 export default LinkButtons
