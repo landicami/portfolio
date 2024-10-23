@@ -1,20 +1,20 @@
 import AboutMe from '../components/AboutMe'
-import Sites from '../components/Sites';
 import TopSection from '../components/TopSection';
 
 
 const HomePage = () => {
   return (
 	<>
+		<header>
+			<TopSection />
+		</header>
+		<hr/>
 		<main>
-		<TopSection />
+			<AboutMe/>
 		<hr/>
 
-		<AboutMe/>
-		<hr/>
-
-		<Sites />
 		</main>
+		<footer>This is a React JS-application using React-Router, Bootstrap and Vite</footer>
 	</>
   )
 }

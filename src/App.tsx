@@ -5,20 +5,28 @@ import HomePage from './pages/HomePage'
 import Navigation from './components/Navigation'
 import NotFoundPage from './pages/NotFoundPage'
 import SkillsPage from './pages/SkillsPage'
+import Sites from './components/Sites'
+import CV from './pages/CV'
 
 function App() {
 
   return (
-    <Container>
+	<>
       <Navigation />
+	  <Container>
 
       <Routes>
         <Route path="/" element={<HomePage/>} />
+		<Route path="/projects" element={<Sites/>} />
+		<Route path="/cv" element={<CV />} />
+
+
 		<Route path="/skills" element={<SkillsPage/>} />
         <Route path="*" element={<NotFoundPage />}/>
       </Routes>
 
     </Container>
+	</>
   )
 }
 
