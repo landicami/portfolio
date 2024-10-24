@@ -8,7 +8,7 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 const Sites = () => {
 	return (
 		<div>
-			<h1 className="mt-3">Projects</h1>
+			<h1 className="mt-5">Projects</h1>
 			<h5>Latest first</h5>
 			<p>
 				All my code for following projects exists on{" "}
@@ -19,9 +19,9 @@ const Sites = () => {
 				basic html.
 			</p>
 
-			<Row>
+			<Row className="mt-5">
 				<Col lg={3} md={4} sm={12} className="mb-4">
-					<Card className="h-100 hover-border">
+					<Card className="h-100 card-project">
 						<Card.Img
 							className="custom-card-img"
 							variant="top"
@@ -67,7 +67,7 @@ const Sites = () => {
 					</Card>
 				</Col>
 				<Col lg={3} md={4} sm={12} className="mb-4">
-					<Card className="h-100 hover-border">
+					<Card className="h-100 card-project">
 						<Card.Img
 							className="custom-card-img"
 							variant="top"
@@ -110,7 +110,7 @@ const Sites = () => {
 				</Col>
 
 				<Col lg={3} md={4} sm={12} className="mb-4">
-					<Card className="h-100 hover-border">
+					<Card className="h-100 card-project">
 						<Card.Img
 							className="custom-card-img"
 							variant="top"
@@ -157,7 +157,7 @@ const Sites = () => {
 				</Col>
 
 				<Col lg={3} md={4} sm={12} className="mb-4 ">
-					<Card className="h-100 hover-border">
+					<Card className="h-100 card-project">
 						<Card.Img
 							className="custom-card-img"
 							variant="top"
@@ -184,7 +184,7 @@ const Sites = () => {
 				</Col>
 
 				<Col lg={3} md={4} sm={12} className="mb-4 ">
-					<Card className="h-100 hover-border">
+					<Card className="h-100 card-project">
 						<Card.Img
 							className="custom-card-img"
 							variant="top"
@@ -210,7 +210,7 @@ const Sites = () => {
 				</Col>
 
 				<Col lg={3} md={4} sm={12} className="mb-4">
-					<Card className="h-100 hover-border">
+					<Card className="h-100 card-project">
 						<Card.Img
 							className="custom-card-img"
 							variant="top"
@@ -237,7 +237,7 @@ const Sites = () => {
 				</Col>
 
 				<Col lg={3} md={4} sm={12} className="mb-4">
-					<Card className="h-100 hover-border">
+					<Card className="h-100 card-project">
 						<Card.Img
 							className="custom-card-img"
 							variant="top"
@@ -262,7 +262,7 @@ const Sites = () => {
 				</Col>
 
 				<Col lg={3} md={4} sm={12} className="mb-4">
-					<Card className="h-100 hover-border">
+					<Card className="h-100 card-project">
 						<Card.Img
 							className="custom-card-img"
 							variant="top"

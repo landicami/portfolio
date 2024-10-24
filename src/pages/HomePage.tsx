@@ -1,22 +1,24 @@
-import AboutMe from '../components/AboutMe'
-import TopSection from '../components/TopSection';
-
+import AboutMe from "../components/AboutMe";
+import LinkButtons from "../components/LinkButtons";
+import TopSection from "../components/TopSection";
 
 const HomePage = () => {
-  return (
-	<>
-		<header>
-			<TopSection />
-		</header>
-		<hr/>
-		<main>
-			<AboutMe/>
-		<hr/>
+	return (
+		<>
+			<header>
+				<TopSection />
+			</header>
+			<main>
+				<AboutMe />
+				<LinkButtons />
+				<hr />
+			</main>
+			<footer className="mx-auto d-flex justify-content-center">
+				This is a React JS-application using React-Router, Bootstrap and
+				Vite
+			</footer>
+		</>
+	);
+};
 
-		</main>
-		<footer>This is a React JS-application using React-Router, Bootstrap and Vite</footer>
-	</>
-  )
-}
-
-export default HomePage
+export default HomePage;
