@@ -1,8 +1,8 @@
 const CV = () => {
   return (
 	<div>
-		<h1 className="mt-2">My CV in pdf-format</h1>
-		<a href="/cv.pdf">Download swedish resumé here</a>.<br/>
+		<h1 className="mt-2">Resumé</h1>
+		<a href="/cv.pdf" download>Download Swedish résumé here</a><br/>
 
 		<h2 id="english-cv" className="mt-4">English resumé</h2>
 		<div className="border overflow-auto p-3" style={{ maxHeight: '800px' }}>
@@ -19,6 +19,7 @@ const CV = () => {
 
 		<h3>Skills</h3>
 		<ul>
+			<li>WCAG and EN 301 549</li>
 			<li>React</li>
 			<li>Typescript</li>
 			<li>JavaScript</li>
@@ -40,6 +41,26 @@ const CV = () => {
 			<li>E2E Testing</li>
 			<li>Cypress</li>
 		</ul>
+
+		<h3>Internship at the Swedish Agency for Accessible Media</h3>
+
+		<p>2024-09-09 - 2024-11-15</p>
+
+		<p><strong>Development:</strong> Continued development of a React app. The tech stack includes JavaScript and Tailwind, with deployment via Azure DevOps. The app allows users to upload a Braille file, which the app then translates into regular text. With a screen reader and Braille display, users can read a Braille book online. The reading position is saved using cookies. Two user tests were conducted, one digital and one physical.</p>
+
+		<p><a href="https://nice-wave0fd8a4d03.5.azurestaticapps.net/">Link to dev stage</a></p>
+
+		<p><strong>Agile Methods:</strong> Daily stand-ups using the Azure board. Sprint planning, demos, and retrospectives.</p>
+
+		<p><strong>Other:</strong> Participated in knowledge-sharing meetings with the agency.</p>
+
+		<p><strong>Completed training through Funka Academy:</strong></p>
+		<ul>
+			<li>Introduction to Accessibility</li>
+			<li>Accessible Technology, Code, and Development</li>
+			<li>Creating Accessible UX Design</li>
+		</ul>
+		<p>Supervisor: Tech Lead Julia Lindberg, <a href="mailto:julia.lindberg@mtm.se">julia.lindberg@mtm.se</a></p>
 
 		<h3>Relevant education</h3>
 		<p>

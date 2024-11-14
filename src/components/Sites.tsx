@@ -33,8 +33,8 @@ const Sites = () => {
 								<div className="col-10">
 									<p>
 										{" "}
-										A website for my soccer-team. This is a
-										hobbyproject.{" "}
+										A website for my soccer-team in Malmoe. This is right now a
+										hobby project.{" "}
 										<strong>Las Presidentas 4-ever!</strong>
 									</p>
 								</div>
@@ -53,7 +53,7 @@ const Sites = () => {
 									</a>
 								</div>
 							</div>
-							<Card.Footer
+							<Card.Text
 								style={{
 									backgroundColor: "white",
 								}}
@@ -62,7 +62,7 @@ const Sites = () => {
 									React.js
 								</small>
 								<small className="framework">Typescript</small>
-							</Card.Footer>
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
@@ -98,13 +98,15 @@ const Sites = () => {
 									</a>
 								</div>
 							</div>
-							<Card.Footer
+							<Card.Text
 								style={{
 									backgroundColor: "white",
 								}}
 							>
-								<small className="framework">Firebase</small>
-							</Card.Footer>
+								<small className="framework me-2">Firebase</small>
+								<small className="framework">React.js</small>
+
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
@@ -124,9 +126,9 @@ const Sites = () => {
 										<strong>C A Movie</strong> is a
 										movie-database using API from{" "}
 										<a href="https://developer.themoviedb.org/">
-											The Movie Db
+											The Movie Db.
 										</a>{" "}
-										with bearer key.
+									 Showing popular, trending and genre movies.
 									</p>
 								</div>
 								<div>
@@ -143,15 +145,16 @@ const Sites = () => {
 									</a>
 								</div>
 							</div>
-							<Card.Footer
+							<Card.Text
 								style={{
 									backgroundColor: "white",
 								}}
 							>
+								<small className="framework me-2">React.js</small>
 								<small className="framework">
 									Tanstack Query
 								</small>
-							</Card.Footer>
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
@@ -165,20 +168,32 @@ const Sites = () => {
 							alt="En STAR WARS-encyklopedi"
 						/>
 						<Card.Body>
-							<Card.Text>
-								<strong>SWAPI</strong> is a Star Wars
-								encyclopedia. Get info about movies, species,
-								and so on!
-								<br />
-								<a
-									href="https://landicami-swapi.netlify.app/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									{" "}
-									Go to site
-								</a>
-							</Card.Text>
+							<div className="d-flex justify-content-between">
+							<div className="col-10">
+								<p><strong>SWAPI</strong> is a Star Wars
+								encyclopedia. Get info about all the movies, species, vehicles
+								and so on!</p>
+								</div>
+								<div>
+									<a
+										href="https://landicami-swapi.netlify.app//"
+										target="_blank"
+										rel="noopener noreferrer"
+										aria-label="Öppna sidan i ett nytt fönster"
+									>
+										<FontAwesomeIcon
+											icon={faArrowUpRightFromSquare}
+											className="icon"
+										/>
+									</a>
+								</div>
+								</div>
+								<Card.Text>
+									<small className="framework me-2">React.js</small>
+									<small className="framework">
+										Bootstrap
+									</small>
+								</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
@@ -191,20 +206,33 @@ const Sites = () => {
 							src="/killvirus.PNG"
 							alt="Ett spel där man dödar zombies"
 						/>
+
 						<Card.Body>
-							<Card.Text>
-								<strong>Kill da virus</strong> is a 2-player
-								game where the fastest zombie-killer wins!
-								<br />
-								<a
-									href="https://github.com/landicami/virus-game-socketio"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									{" "}
-									Go to code
-								</a>
-							</Card.Text>
+						<div className="d-flex justify-content-between">
+							<div className="col-10">
+									<p><strong>Kill da virus</strong> is a 2-player
+									game where the fastest zombie-killer wins! </p>
+							</div>
+							<div>
+							<a
+										href="https://github.com/landicami/virus-game-socketio"
+										target="_blank"
+										rel="noopener noreferrer"
+										aria-label="Öppna sidan i ett nytt fönster"
+									>
+										<FontAwesomeIcon
+											icon={faArrowUpRightFromSquare}
+											className="icon"
+										/>
+									</a>
+							</div>
+						</div>
+						<Card.Text>
+									<small className="framework me-2">Vanilla.js</small>
+									<small className="framework">
+										socket.io
+									</small>
+								</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
@@ -218,21 +246,34 @@ const Sites = () => {
 							alt="En e-handelssida"
 						/>
 						<Card.Body>
-							<Card.Text>
-								<strong>Bortakväll</strong> is an e-commerce
+						<div className="d-flex justify-content-between">
+							<div className="col-10">
+							<p><strong>Bortakväll</strong> is an e-commerce
 								page. Put candy in the cart and add the order to
-								an API.
-								<br />
+								an API.</p>
+								</div>
+							<div>
 								<a
 									href="https://grupp-8-inl-2.netlify.app/"
 									target="_blank"
 									rel="noopener noreferrer"
-								>
-									{" "}
-									Go to site
-								</a>
-							</Card.Text>
+									aria-label="Öppna sidan i ett nytt fönster"
+									>
+									<FontAwesomeIcon
+										icon={faArrowUpRightFromSquare}
+										className="icon"
+									/>
+									</a>
+								</div>
+						</div>
+						<Card.Text>
+									<small className="framework me-2">Vanilla.js</small>
+									<small className="framework">
+										Bootstrap
+									</small>
+								</Card.Text>
 						</Card.Body>
+
 					</Card>
 				</Col>
 
@@ -245,23 +286,35 @@ const Sites = () => {
 							alt="En hemsida för ett quiz"
 						/>
 						<Card.Body>
-							<Card.Text>
-								<strong>Guess the flag</strong>-game!
-								<br />
+						<div className="d-flex justify-content-between">
+						<div className="col-10">
+							<p><strong>Guess the flag</strong>-game! Made initially with students but due to GDPR, play with flags.</p>
+								</div>
+								<div>
 								<a
 									href="https://flag-quiz-guess.netlify.app/"
 									target="_blank"
 									rel="noopener noreferrer"
-								>
-									{" "}
-									Go to site
-								</a>
-							</Card.Text>
+									aria-label="Öppna sidan i ett nytt fönster"
+									>
+									<FontAwesomeIcon
+										icon={faArrowUpRightFromSquare}
+										className="icon"
+									/>
+									</a>
+								</div>
+								</div>
+							<Card.Text>
+									<small className="framework me-2">Vanilla.js</small>
+									<small className="framework">
+										Bootstrap
+									</small>
+								</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
 
-				<Col lg={3} md={4} sm={12} className="mb-4">
+				{/* <Col lg={3} md={4} sm={12} className="mb-4">
 					<Card className="h-100 card-project">
 						<Card.Img
 							className="custom-card-img"
@@ -285,7 +338,7 @@ const Sites = () => {
 							</Card.Text>
 						</Card.Body>
 					</Card>
-				</Col>
+				</Col> */}
 			</Row>
 		</div>
 	);
