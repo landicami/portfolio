@@ -19,6 +19,10 @@ const CV = () => {
 
 		<h3>Skills</h3>
 		<ul>
+			<li>Flutter</li>
+			<li>Dart</li>
+			<li>Android Studio</li>
+			<li>Figma</li>
 			<li>WCAG and EN 301 549</li>
 			<li>React</li>
 			<li>Typescript</li>
@@ -45,6 +49,7 @@ const CV = () => {
 		<h3>Internship at the Swedish Agency for Accessible Media</h3>
 
 		<p>2024-09-09 - 2024-11-15</p>
+		<p>and ongoing 2025-01-08 - 2025-04-18</p>
 
 		<p><strong>Development:</strong> Continued development of a React app. The tech stack includes JavaScript and Tailwind, with deployment via Azure DevOps. The app allows users to upload a Braille file, which the app then translates into regular text. With a screen reader and Braille display, users can read a Braille book online. The reading position is saved using cookies. Two user tests were conducted, one digital and one physical.</p>
 
@@ -60,7 +65,7 @@ const CV = () => {
 			<li>Accessible Technology, Code, and Development</li>
 			<li>Creating Accessible UX Design</li>
 		</ul>
-		<p>Supervisor: Tech Lead Julia Lindberg, <a href="mailto:julia.lindberg@mtm.se">julia.lindberg@mtm.se</a></p>
+		<p>Supervisor: Team Lead Julia Lindberg, <a href="mailto:julia.lindberg@mtm.se">julia.lindberg@mtm.se</a></p>
 
 		<h3>Relevant education</h3>
 		<p>
@@ -107,6 +112,13 @@ const CV = () => {
 		</p>
 
 		<h3>Code projects (most recent first)</h3>
+		<p>
+		<strong>Course:</strong> Degree project	<br/>
+		<strong>Duration:</strong> November 2024-January 2025<br/>
+		<strong>Technologies & Methods:</strong> Flutter, Dart, Android studio, C++, Figma	<br/>
+		This is my degreeproject for school. TripWise is your ultimate travel companion! Plan, organize, and enjoy your trips with ease — thanks to smart features that make every journey connected. Follow your favorite travelcompanion and make your trip wiser.
+		</p>
+
 		<p>
 			<strong>Course:</strong> Advanced JavaScript<br />
 			<strong>Duration:</strong> April–September 2024<br />
