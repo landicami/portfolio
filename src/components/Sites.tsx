@@ -11,9 +11,9 @@ const Sites = () => {
 			<h1 className="mt-5">Projects</h1>
 			<h5>Latest first</h5>
 			<p>
-				All my code for following projects exists on{" "}
+				
 				<a href="https://github.com/landicami" target="_blank">
-					my github.
+				All my code for following projects exists on my github.
 				</a>{" "}
 				Most of these projects are written in Typescript, Vanilla-JS and
 				basic html.
